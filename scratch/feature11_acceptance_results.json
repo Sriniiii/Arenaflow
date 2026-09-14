@@ -1,0 +1,135 @@
+{
+  "section1_overview": {
+    "verified": true,
+    "status": "PUBLISHED",
+    "venue": {
+      "city": "Delhi",
+      "name": "Spectator Audit Arena 502614"
+    },
+    "categoriesCount": 1,
+    "liveMatches": 1,
+    "completedMatches": 1
+  },
+  "section2_liveMatchCenter": {
+    "verified": true,
+    "matchId": "86e41e75-54f4-4a33-85d0-aeb32e0a28ef",
+    "court": {
+      "name": "Court 1"
+    },
+    "gameScore": {
+      "game_number": 1,
+      "participant_a_score": 15,
+      "participant_b_score": 13
+    }
+  },
+  "section3_serviceTracking": {
+    "verified": true,
+    "serviceState": {
+      "matchType": "SINGLES",
+      "serverCourt": "RIGHT",
+      "servingSide": "A",
+      "receiverCourt": "RIGHT",
+      "receivingSide": "B",
+      "serverPlayerId": "393b80bb-779c-404b-80a9-9c0f1cfb652f",
+      "receiverPlayerId": "ce7ac2e2-4394-4187-81e9-2e9db388563f"
+    }
+  },
+  "section4_timeline": {
+    "verified": true,
+    "eventCount": 3,
+    "events": [
+      {
+        "id": "8c13b3c5-11e9-4cc3-af73-5c27c716cf7e",
+        "event_type": "POINT_A",
+        "sequence_number": 1
+      },
+      {
+        "id": "cd64a075-39ed-46d2-ac9c-36fba7498f48",
+        "event_type": "POINT_B",
+        "sequence_number": 2
+      },
+      {
+        "id": "cdd84a42-e2ff-460e-b19c-c0c3c3d48313",
+        "event_type": "POINT_A",
+        "sequence_number": 3
+      }
+    ]
+  },
+  "section5_completedResults": {
+    "verified": true,
+    "outcome": "COMPLETED",
+    "winnerId": "e688b4bb-96a5-4057-b7b4-1ae416eefb69",
+    "games": [
+      {
+        "game_number": 1,
+        "participant_a_score": 21,
+        "participant_b_score": 17
+      },
+      {
+        "game_number": 2,
+        "participant_a_score": 21,
+        "participant_b_score": 19
+      }
+    ]
+  },
+  "section6_security": {
+    "verified": true,
+    "matchMutationBlocked": false,
+    "eventInsertionBlocked": true,
+    "rpcExecutionBlocked": true
+  },
+  "section7_standingsEngine": {
+    "verified": true,
+    "rank1": {
+      "participant_id": "p1",
+      "participantId": "p1",
+      "played": 0,
+      "won": 0,
+      "lost": 0,
+      "draws": 0,
+      "points_for": 0,
+      "points_against": 0,
+      "points_diff": 0,
+      "pointDifference": 0,
+      "games_won": 2,
+      "games_lost": 0,
+      "games_diff": 2,
+      "gameDifference": 2,
+      "win_percentage": 0,
+      "winPercentage": 0,
+      "rank": 1,
+      "is_manually_resolved": false,
+      "manual_rank_override": null,
+      "pointsFor": 0,
+      "pointsAgainst": 0,
+      "gamesWon": 2,
+      "gamesLost": 0
+    },
+    "rank2": {
+      "participant_id": "p2",
+      "participantId": "p2",
+      "played": 0,
+      "won": 0,
+      "lost": 0,
+      "draws": 0,
+      "points_for": 0,
+      "points_against": 0,
+      "points_diff": 0,
+      "pointDifference": 0,
+      "games_won": 0,
+      "games_lost": 2,
+      "games_diff": -2,
+      "gameDifference": -2,
+      "win_percentage": 0,
+      "winPercentage": 0,
+      "rank": 2,
+      "is_manually_resolved": false,
+      "manual_rank_override": null,
+      "pointsFor": 0,
+      "pointsAgainst": 0,
+      "gamesWon": 0,
+      "gamesLost": 2
+    }
+  },
+  "audit_status": "PASS — Browser + Database Verified"
+}

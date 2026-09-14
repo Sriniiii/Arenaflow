@@ -1,0 +1,15 @@
+{
+  "totalUsers": 657,
+  "realUsers": [
+    {
+      "id": "c3d56f95-e8db-40b2-99b2-bf2b5ca7e0e7",
+      "email": "sriniwasp36@gmail.com"
+    }
+  ],
+  "ambiguousUsers": [],
+  "candidatesToDeleteCount": 656,
+  "prodTournamentsCount": 1,
+  "testTournamentsToDeleteCount": 134,
+  "prodPlayersCount": 2,
+  "totalPlayersCount": 1000
+}

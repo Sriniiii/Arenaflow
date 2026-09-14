@@ -1,0 +1,21 @@
+{
+  "name": "arena-flow-monorepo",
+  "private": true,
+  "packageManager": "pnpm@11.22.0",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "clean": "turbo run clean && rimraf node_modules **/node_modules"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.23.1",
+    "pg": "^8.23.0",
+    "rimraf": "^5.0.5",
+    "tsx": "^4.23.12",
+    "turbo": "^2.4.0",
+    "typescript": "^5.7.3"
+  }
+}

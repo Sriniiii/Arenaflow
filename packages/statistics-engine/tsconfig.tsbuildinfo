@@ -1,0 +1,1 @@
+{"root":["./src/abstraction.ts","./src/badminton.ts","./src/football.ts","./src/h2h.ts","./src/index.ts","./src/match.ts","./src/player.ts","./src/standings.ts","./src/tournament.ts","./src/types.ts"],"version":"5.9.3"}
