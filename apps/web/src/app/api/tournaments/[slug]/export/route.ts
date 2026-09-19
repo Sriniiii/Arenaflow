@@ -13,10 +13,11 @@ import {
   exportTournamentReport,
   sanitizeFilename
 } from '@/services/reports';
+import { getNormalizedSupabaseUrl, getNormalizedSupabaseKey } from '@/services/supabase';
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'http://127.0.0.1:54321';
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
-const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || supabaseAnonKey;
+const supabaseUrl = getNormalizedSupabaseUrl(process.env.NEXT_PUBLIC_SUPABASE_URL);
+const supabaseAnonKey = getNormalizedSupabaseKey(process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
+const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY ? getNormalizedSupabaseKey(process.env.SUPABASE_SERVICE_ROLE_KEY) : supabaseAnonKey;
 
 export async function GET(
   request: NextRequest,
